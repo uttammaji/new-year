@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New Year Countdown with Circles</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="countdown-container">
+    <h1>Countdown to New Year 2025</h1>
+
+    <div class="circle-container">
+      <div class="circle" id="days">
+        <svg width="150" height="150">
+          <circle cx="75" cy="75" r="70" stroke="#ddd" stroke-width="10" fill="none"></circle>
+          <circle class="progress-bar" cx="75" cy="75" r="70" stroke="#ff5733" stroke-width="10" fill="none" stroke-dasharray="439.82" stroke-dashoffset="0"></circle>
+        </svg>
+        <div class="time" id="days-time">00</div>
+      </div>
+
+      <div class="circle" id="hours">
+        <svg width="150" height="150">
+          <circle cx="75" cy="75" r="70" stroke="#ddd" stroke-width="10" fill="none"></circle>
+          <circle class="progress-bar" cx="75" cy="75" r="70" stroke="#ff5733" stroke-width="10" fill="none" stroke-dasharray="439.82" stroke-dashoffset="0"></circle>
+        </svg>
+        <div class="time" id="hours-time">00</div>
+      </div>
+
+      <div class="circle" id="minutes">
+        <svg width="150" height="150">
+          <circle cx="75" cy="75" r="70" stroke="#ddd" stroke-width="10" fill="none"></circle>
+          <circle class="progress-bar" cx="75" cy="75" r="70" stroke="#ff5733" stroke-width="10" fill="none" stroke-dasharray="439.82" stroke-dashoffset="0"></circle>
+        </svg>
+        <div class="time" id="minutes-time">00</div>
+      </div>
+
+      <div class="circle" id="seconds">
+        <svg width="150" height="150">
+          <circle cx="75" cy="75" r="70" stroke="#ddd" stroke-width="10" fill="none"></circle>
+          <circle class="progress-bar" cx="75" cy="75" r="70" stroke="#ff5733" stroke-width="10" fill="none" stroke-dasharray="439.82" stroke-dashoffset="0"></circle>
+        </svg>
+        <div class="time" id="seconds-time">00</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
